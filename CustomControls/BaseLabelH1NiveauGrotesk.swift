@@ -8,7 +8,7 @@
 import UIKit
 
 class BaseLabelH1NiveauGrotesk: UILabel {
-    
+
     //MARK: - init
     override init(frame: CGRect){
         super.init(frame: frame)
@@ -25,5 +25,5 @@ class BaseLabelH1NiveauGrotesk: UILabel {
         self.textColor = R.color.cornflower()
         self.font = UIFont(name: "Montserrat-Regular", size: 50)
     }
-    
+
 }

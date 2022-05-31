@@ -26,10 +26,11 @@ class HomeTableViewCell: UITableViewCell {
         imgHome.image = UIImage(named: "home")
         lblHomeDetails.text = data.detail
         
-//        cardView.layer.shadowRadius = 2
-//        cardView.layer.shadowColor = UIColor.black.cgColor
-//        cardView.layer.shadowOpacity = 0.2
-//        cardView.layer.shadowOffset = CGSize(width: 1, height: 1)
-//        cardView.layer.cornerRadius = 15
+        cardView.layer.shadowRadius = 2
+        cardView.layer.shadowColor = UIColor.black.cgColor
+        cardView.layer.shadowOpacity = 0.5
+        cardView.layer.shadowOffset = CGSize(width: 1, height: 1)
+        cardView.layer.cornerRadius = 25
+
     }
 }

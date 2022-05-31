@@ -8,7 +8,7 @@
 import UIKit
 
 class BaseLabelH4Monteserrat: BaseLabelH3Monteserrat {
-    
+
     //MARK: - init
     override init(frame: CGRect){
         super.init(frame: frame)
@@ -21,8 +21,12 @@ class BaseLabelH4Monteserrat: BaseLabelH3Monteserrat {
     }
     
     //MARK: - Functions
-    private func setupLabel() {
-        self.font = UIFont(name: "Montserrat-Bold", size: 15)
+
+
+    func setupLabel() {
+        self.textColor = .black
+        self.font = UIFont(name: "Montserrat-Regular", size: 15)
+
         self.textAlignment = NSTextAlignment.justified
     }
 }

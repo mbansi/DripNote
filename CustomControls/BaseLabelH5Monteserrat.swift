@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class BaseLabelH5Monteserrat: BaseLabelH4Monteserrat {
 
     //MARK: - init
@@ -21,6 +22,7 @@ class BaseLabelH5Monteserrat: BaseLabelH4Monteserrat {
     }
     
     //MARK: - Functions
+
     private func setupDetail() {
         self.font = UIFont(name: "Montserrat-Regular", size: 15)
 //        let string = self.text ?? ""
@@ -29,5 +31,8 @@ class BaseLabelH5Monteserrat: BaseLabelH4Monteserrat {
 //        let attributedQuote = NSAttributedString(string: String(number ?? 0) , attributes: attributes)
 //        self.attributedText = attributedQuote
 //        self.textColor = .black
+        self.textColor = .gray
+        self.font = UIFont(name: "Montserrat-Regular", size: 11)
+        self.textAlignment = NSTextAlignment.justified
     }
 }

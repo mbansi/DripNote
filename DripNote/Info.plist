@@ -6,7 +6,6 @@
 	<array>
 		<string>NiveauGrotesk.otf</string>
 		<string>Montserrat-Regular.ttf</string>
-		<string>Montserrat-Bold.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

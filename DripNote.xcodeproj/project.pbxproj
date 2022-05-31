@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		4054B17AADD3D5990E829E49 /* Pods_DripNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150F03EF303CEC53575BA098 /* Pods_DripNote.framework */; };
 		5F4F44DB2845DFA90011CD1A /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F44DA2845DFA90011CD1A /* HomeScreen.storyboard */; };
+		5F9CE83D2849CDB6003FC4DA /* AllNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE8352849CDB6003FC4DA /* AllNotesViewController.swift */; };
+		5F9CE83E2849CDB6003FC4DA /* AllNotesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9CE8362849CDB6003FC4DA /* AllNotesScreen.storyboard */; };
+		5F9CE83F2849CDB6003FC4DA /* AllNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE8372849CDB6003FC4DA /* AllNotesTableViewCell.swift */; };
+		5F9CE8412849CDB6003FC4DA /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE8392849CDB6003FC4DA /* AddNoteViewController.swift */; };
+		5F9CE8422849CDB6003FC4DA /* AllNotesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE83A2849CDB6003FC4DA /* AllNotesDataModel.swift */; };
+		5F9CE8452849CE02003FC4DA /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE8442849CE01003FC4DA /* DatabaseHelper.swift */; };
 		5FB88A252844BEEF00D9755C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A242844BEEF00D9755C /* AppDelegate.swift */; };
 		5FB88A272844BEEF00D9755C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A262844BEEF00D9755C /* SceneDelegate.swift */; };
 		5FB88A292844BEEF00D9755C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A282844BEEF00D9755C /* ViewController.swift */; };
@@ -37,6 +43,12 @@
 		10F447079B821D09AB6853FA /* Pods-DripNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DripNote.release.xcconfig"; path = "Target Support Files/Pods-DripNote/Pods-DripNote.release.xcconfig"; sourceTree = "<group>"; };
 		150F03EF303CEC53575BA098 /* Pods_DripNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DripNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4F44DA2845DFA90011CD1A /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		5F9CE8352849CDB6003FC4DA /* AllNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllNotesViewController.swift; sourceTree = "<group>"; };
+		5F9CE8362849CDB6003FC4DA /* AllNotesScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AllNotesScreen.storyboard; sourceTree = "<group>"; };
+		5F9CE8372849CDB6003FC4DA /* AllNotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllNotesTableViewCell.swift; sourceTree = "<group>"; };
+		5F9CE8392849CDB6003FC4DA /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		5F9CE83A2849CDB6003FC4DA /* AllNotesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllNotesDataModel.swift; sourceTree = "<group>"; };
+		5F9CE8442849CE01003FC4DA /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		5FB88A212844BEEE00D9755C /* DripNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DripNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB88A242844BEEF00D9755C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FB88A262844BEEF00D9755C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,9 +117,31 @@
 			path = HomeScreen;
 			sourceTree = "<group>";
 		};
+		5F9CE8322849CDB6003FC4DA /* AllNotesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5F9CE8352849CDB6003FC4DA /* AllNotesViewController.swift */,
+				5F9CE8362849CDB6003FC4DA /* AllNotesScreen.storyboard */,
+				5F9CE8372849CDB6003FC4DA /* AllNotesTableViewCell.swift */,
+				5F9CE8392849CDB6003FC4DA /* AddNoteViewController.swift */,
+				5F9CE83A2849CDB6003FC4DA /* AllNotesDataModel.swift */,
+			);
+			path = AllNotesScreen;
+			sourceTree = "<group>";
+		};
+		5F9CE8432849CE01003FC4DA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5F9CE8442849CE01003FC4DA /* DatabaseHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		5FB88A182844BEEE00D9755C = {
 			isa = PBXGroup;
 			children = (
+				5F9CE8432849CE01003FC4DA /* Helper */,
+				5F9CE8322849CDB6003FC4DA /* AllNotesScreen */,
 				5F4F44D92845DF8B0011CD1A /* HomeScreen */,
 				5FB88A412844CB3500D9755C /* CustomControls */,
 				5FB88A3F2844CB2B00D9755C /* R.generated.swift */,
@@ -239,6 +273,7 @@
 			files = (
 				5FB88A462844CCB500D9755C /* Montserrat-Regular.ttf in Resources */,
 				5FB88A472844CCB500D9755C /* NiveauGrotesk.otf in Resources */,
+				5F9CE83E2849CDB6003FC4DA /* AllNotesScreen.storyboard in Resources */,
 				5FB88A312844BEF400D9755C /* LaunchScreen.storyboard in Resources */,
 				5F4F44DB2845DFA90011CD1A /* HomeScreen.storyboard in Resources */,
 				5FB88A3A2844C23400D9755C /* SplashScreen.storyboard in Resources */,
@@ -315,15 +350,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9CE8412849CDB6003FC4DA /* AddNoteViewController.swift in Sources */,
 				5FB88A4D2844D14E00D9755C /* BaseButtonPrimaryColor.swift in Sources */,
 				5FB88A292844BEEF00D9755C /* ViewController.swift in Sources */,
 				5FF8B528284609D1001C1962 /* HomeTableViewCell.swift in Sources */,
+				5F9CE8452849CE02003FC4DA /* DatabaseHelper.swift in Sources */,
 				5FB88A252844BEEF00D9755C /* AppDelegate.swift in Sources */,
 				5FB88A452844CB9E00D9755C /* BaseLabelH1NiveauGrotesk.swift in Sources */,
 				5FB88A492844CE2D00D9755C /* SplashViewController.swift in Sources */,
 				5FB88A272844BEEF00D9755C /* SceneDelegate.swift in Sources */,
+				5F9CE83D2849CDB6003FC4DA /* AllNotesViewController.swift in Sources */,
 				5FFC502B2847A01E00579339 /* BaseLabelH5Monteserrat.swift in Sources */,
+				5F9CE8422849CDB6003FC4DA /* AllNotesDataModel.swift in Sources */,
 				5FB88A402844CB2C00D9755C /* R.generated.swift in Sources */,
+				5F9CE83F2849CDB6003FC4DA /* AllNotesTableViewCell.swift in Sources */,
 				5FF8B5242845ED34001C1962 /* HomeViewController.swift in Sources */,
 				5FF8B5262846096D001C1962 /* HomeModel.swift in Sources */,
 				5FC3CE392848740C0060B5A3 /* CardViewHome.swift in Sources */,

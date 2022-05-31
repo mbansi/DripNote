@@ -8,6 +8,7 @@
 import UIKit
 
 class BaseLabelH3Monteserrat: UILabel {
+
     
     //MARK: - init
     override init(frame: CGRect){
@@ -33,5 +34,4 @@ class BaseLabelH3Monteserrat: UILabel {
         self.attributedText = attrString
         self.textAlignment = NSTextAlignment.center
     }
-    
 }
