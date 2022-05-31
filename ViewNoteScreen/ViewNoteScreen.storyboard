@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nc6-Ca-plA">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Note View Controller-->
+        <scene sceneID="QFV-73-xrJ">
+            <objects>
+                <viewController storyboardIdentifier="ViewNoteViewController" id="nc6-Ca-plA" customClass="ViewNoteViewController" customModule="DripNote" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uap-Vy-bdg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YWM-MP-rSG" customClass="CardViewHome" customModule="DripNote" customModuleProvider="target">
+                                <rect key="frame" x="10" y="140" width="355" height="542"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3w-9R-E98" customClass="ButtonMonteserrat12" customModule="DripNote" customModuleProvider="target">
+                                        <rect key="frame" x="34" y="27" width="37" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Done"/>
+                                        <connections>
+                                            <action selector="doneAction:" destination="nc6-Ca-plA" eventType="touchUpInside" id="LlE-g2-KCP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9AV-IY-el3">
+                                        <rect key="frame" x="297" y="34" width="31" height="22"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="SettingIcon"/>
+                                        <connections>
+                                            <action selector="settingsAction:" destination="nc6-Ca-plA" eventType="touchUpInside" id="aWx-Xg-DNz"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKA-HK-QUo">
+                                        <rect key="frame" x="34" y="79" width="294" height="20.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20.329999999999998" id="JEs-nm-tnC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" contentInsetAdjustmentBehavior="never" editable="NO" text="Label" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Umo-xQ-oYF" customClass="BaseTextViewMonteserrat" customModule="DripNote" customModuleProvider="target">
+                                        <rect key="frame" x="34" y="124.33333333333329" width="321" height="308.66666666666674"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="v5f-IS-S37">
+                                        <rect key="frame" x="34" y="458" width="81" height="49"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxw-a5-KgX">
+                                                <rect key="frame" x="0.0" y="0.0" width="37" height="49"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="DropIcon"/>
+                                                <connections>
+                                                    <action selector="dropAction:" destination="nc6-Ca-plA" eventType="touchUpInside" id="Z6Z-Cf-AoR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeM-F2-I4X">
+                                                <rect key="frame" x="42" y="0.0" width="39" height="49"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="FavoriteColoredIcon"/>
+                                                <connections>
+                                                    <action selector="flagAction:" destination="nc6-Ca-plA" eventType="touchUpInside" id="Jlm-In-PzF"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHK-4n-Sf4" customClass="BaseButtonPrimaryColor" customModule="DripNote" customModuleProvider="target">
+                                        <rect key="frame" x="238" y="458" width="90" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="T8L-vL-S2r"/>
+                                            <constraint firstAttribute="width" constant="90" id="mas-eQ-ccW"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Edit">
+                                            <color key="titleColor" red="0.96121784190000004" green="0.97426369430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="editAction:" destination="nc6-Ca-plA" eventType="touchUpInside" id="Dy9-kj-oar"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98233515950000005" green="1" blue="0.9981276322" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="JKA-HK-QUo" firstAttribute="trailing" secondItem="9AV-IY-el3" secondAttribute="trailing" id="2Re-uv-RGj"/>
+                                    <constraint firstAttribute="bottom" secondItem="v5f-IS-S37" secondAttribute="bottom" constant="35" id="5D9-n7-v9l"/>
+                                    <constraint firstItem="v5f-IS-S37" firstAttribute="leading" secondItem="h3w-9R-E98" secondAttribute="leading" id="6qU-zu-tO9"/>
+                                    <constraint firstItem="IHK-4n-Sf4" firstAttribute="trailing" secondItem="JKA-HK-QUo" secondAttribute="trailing" id="7rd-3I-bVs"/>
+                                    <constraint firstItem="Umo-xQ-oYF" firstAttribute="top" secondItem="JKA-HK-QUo" secondAttribute="bottom" constant="25" id="B4e-KV-vRW"/>
+                                    <constraint firstItem="JKA-HK-QUo" firstAttribute="leading" secondItem="h3w-9R-E98" secondAttribute="leading" id="DvI-64-P0v"/>
+                                    <constraint firstItem="h3w-9R-E98" firstAttribute="top" secondItem="YWM-MP-rSG" secondAttribute="top" constant="27" id="TXy-b5-o8q"/>
+                                    <constraint firstItem="IHK-4n-Sf4" firstAttribute="top" secondItem="v5f-IS-S37" secondAttribute="top" id="am3-ht-cqD"/>
+                                    <constraint firstAttribute="trailing" secondItem="Umo-xQ-oYF" secondAttribute="trailing" id="fC9-lt-li6"/>
+                                    <constraint firstItem="Umo-xQ-oYF" firstAttribute="leading" secondItem="JKA-HK-QUo" secondAttribute="leading" id="hVg-ik-aoM"/>
+                                    <constraint firstAttribute="bottom" secondItem="IHK-4n-Sf4" secondAttribute="bottom" constant="39" id="iJZ-ep-I4O"/>
+                                    <constraint firstItem="9AV-IY-el3" firstAttribute="top" secondItem="YWM-MP-rSG" secondAttribute="top" constant="34" id="mCa-ha-xHH"/>
+                                    <constraint firstItem="JKA-HK-QUo" firstAttribute="top" secondItem="h3w-9R-E98" secondAttribute="bottom" constant="22" id="mid-2j-gDe"/>
+                                    <constraint firstAttribute="trailing" secondItem="9AV-IY-el3" secondAttribute="trailing" constant="27" id="plX-IM-e5L"/>
+                                    <constraint firstItem="v5f-IS-S37" firstAttribute="top" secondItem="Umo-xQ-oYF" secondAttribute="bottom" constant="25" id="rPE-Oc-cYb"/>
+                                    <constraint firstItem="h3w-9R-E98" firstAttribute="leading" secondItem="YWM-MP-rSG" secondAttribute="leading" constant="34" id="rvB-rK-pmZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ipf-dL-9Xi"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YWM-MP-rSG" firstAttribute="top" secondItem="Ipf-dL-9Xi" secondAttribute="top" constant="96" id="7XZ-kD-rcw"/>
+                            <constraint firstItem="YWM-MP-rSG" firstAttribute="leading" secondItem="Ipf-dL-9Xi" secondAttribute="leading" constant="10" id="HYt-bE-FWr"/>
+                            <constraint firstItem="Ipf-dL-9Xi" firstAttribute="trailing" secondItem="YWM-MP-rSG" secondAttribute="trailing" constant="10" id="LYq-Ra-LPG"/>
+                            <constraint firstItem="Ipf-dL-9Xi" firstAttribute="bottom" secondItem="YWM-MP-rSG" secondAttribute="bottom" constant="96" id="tP2-q0-5a7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnFav" destination="Vxw-a5-KgX" id="I4T-S9-D2F"/>
+                        <outlet property="lblTitle" destination="JKA-HK-QUo" id="y6u-b1-q3Q"/>
+                        <outlet property="mainView" destination="uap-Vy-bdg" id="SLC-Ed-LWg"/>
+                        <outlet property="txtDetail" destination="Umo-xQ-oYF" id="Mbv-CE-T7D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yc3-ma-8em" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-806" y="50"/>
+        </scene>
+        <!--More Options View Controller-->
+        <scene sceneID="qoo-9h-wUV">
+            <objects>
+                <viewController storyboardIdentifier="MoreOptionsViewController" id="l1g-0d-my1" customClass="MoreOptionsViewController" customModule="DripNote" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nPa-ZZ-hyb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELECT AN ACTION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHf-Ku-1BT">
+                                <rect key="frame" x="110.66666666666669" y="65" width="154" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="cornflower"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QkX-NA-clq">
+                                <rect key="frame" x="30" y="115.33333333333331" width="315" height="78"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8w-pe-eT0" customClass="VerticallyAlignedButton" customModule="DripNote" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="19.000000000000014" width="105" height="40"/>
+                                        <inset key="titleEdgeInsets" minX="-15" minY="50" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="40" minY="-30" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Delete Note" image="MoreOptionsDeleteIcon">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aJ-l7-bSm" customClass="VerticallyAlignedButton" customModule="DripNote" customModuleProvider="target">
+                                        <rect key="frame" x="105" y="23.666666666666671" width="105" height="31"/>
+                                        <inset key="titleEdgeInsets" minX="-15" minY="50" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="40" minY="-30" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="New Folder" image="MoreOptionsNewFolder">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDs-eF-tpi" customClass="VerticallyAlignedButton" customModule="DripNote" customModuleProvider="target">
+                                        <rect key="frame" x="210" y="22.000000000000014" width="105" height="34"/>
+                                        <inset key="titleEdgeInsets" minX="-15" minY="50" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="40" minY="-30" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="View Bucket" image="MoreOptionsBucket">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="KCp-M3-8ML"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ltw-6K-bS5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zHf-Ku-1BT" firstAttribute="centerX" secondItem="Ltw-6K-bS5" secondAttribute="centerX" id="22u-YT-tVQ"/>
+                            <constraint firstItem="QkX-NA-clq" firstAttribute="top" secondItem="zHf-Ku-1BT" secondAttribute="bottom" constant="30" id="8lR-Yu-M19"/>
+                            <constraint firstItem="QkX-NA-clq" firstAttribute="leading" secondItem="Ltw-6K-bS5" secondAttribute="leading" constant="30" id="PuX-Sm-j6a"/>
+                            <constraint firstItem="zHf-Ku-1BT" firstAttribute="top" secondItem="Ltw-6K-bS5" secondAttribute="top" constant="21" id="by9-TT-Vs3"/>
+                            <constraint firstItem="Ltw-6K-bS5" firstAttribute="trailing" secondItem="QkX-NA-clq" secondAttribute="trailing" constant="30" id="tDR-gt-9bN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ig-El-vEL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68" y="57.121439280359823"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DropIcon" width="13" height="18"/>
+        <image name="FavoriteColoredIcon" width="15" height="17"/>
+        <image name="MoreOptionsBucket" width="34" height="34"/>
+        <image name="MoreOptionsDeleteIcon" width="30" height="40"/>
+        <image name="MoreOptionsNewFolder" width="41" height="31"/>
+        <image name="SettingIcon" width="31" height="7"/>
+        <namedColor name="cornflower">
+            <color red="0.54117647058823526" green="0.6588235294117647" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
