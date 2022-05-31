@@ -7,15 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4054B17AADD3D5990E829E49 /* Pods_DripNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150F03EF303CEC53575BA098 /* Pods_DripNote.framework */; };
+		5F4742F528534BB300ADB926 /* GenericFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4742F428534BB300ADB926 /* GenericFunctions.swift */; };
+		5F4E3E1028599E13005333A8 /* IconStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E3E0F28599E13005333A8 /* IconStackView.swift */; };
+		5F4E3E192859CB68005333A8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E3E182859CB68005333A8 /* UIView.swift */; };
+		5F4E3E1A2859CFC1005333A8 /* IconStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4E3E132859A8EB005333A8 /* IconStackView.xib */; };
+		5F4E3E1C2859DEFC005333A8 /* UISegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E3E1B2859DEFC005333A8 /* UISegmentControl.swift */; };
+		5F4E3E1E2859DF20005333A8 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E3E1D2859DF20005333A8 /* UIImage.swift */; };
+		5F4F44DB2845DFA90011CD1A /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F44DA2845DFA90011CD1A /* HomeScreen.storyboard */; };
+		5F5318CF286189D4007391A2 /* ViewNoteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5318CE286189D4007391A2 /* ViewNoteCoordinator.swift */; };
+		5F5318D128619B59007391A2 /* EditNoteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5318D028619B59007391A2 /* EditNoteCoordinator.swift */; };
+		5F5318D32861BF45007391A2 /* AddNoteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5318D22861BF45007391A2 /* AddNoteCoordinator.swift */; };
+		5F5318D52861CEC6007391A2 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5318D42861CEC6007391A2 /* HomeCoordinator.swift */; };
+		5F96B2D1285AFC8B005A6B8F /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96B2D0285AFC8B005A6B8F /* TabViewController.swift */; };
+		5F9CE83D2849CDB6003FC4DA /* AllNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE8352849CDB6003FC4DA /* AllNotesViewController.swift */; };
+		5F9CE83E2849CDB6003FC4DA /* AllNotesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9CE8362849CDB6003FC4DA /* AllNotesScreen.storyboard */; };
+		5F9CE83F2849CDB6003FC4DA /* AllNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE8372849CDB6003FC4DA /* AllNotesTableViewCell.swift */; };
+		5F9CE8412849CDB6003FC4DA /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE8392849CDB6003FC4DA /* AddNoteViewController.swift */; };
+		5F9CE8422849CDB6003FC4DA /* AllNotesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE83A2849CDB6003FC4DA /* AllNotesDataModel.swift */; };
+		5F9CE8452849CE02003FC4DA /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CE8442849CE01003FC4DA /* DatabaseHelper.swift */; };
 		5FB88A252844BEEF00D9755C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A242844BEEF00D9755C /* AppDelegate.swift */; };
 		5FB88A272844BEEF00D9755C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A262844BEEF00D9755C /* SceneDelegate.swift */; };
 		5FB88A292844BEEF00D9755C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A282844BEEF00D9755C /* ViewController.swift */; };
 		5FB88A2C2844BEEF00D9755C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB88A2A2844BEEF00D9755C /* Main.storyboard */; };
 		5FB88A2E2844BEF400D9755C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB88A2D2844BEF400D9755C /* Assets.xcassets */; };
 		5FB88A312844BEF400D9755C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB88A2F2844BEF400D9755C /* LaunchScreen.storyboard */; };
+		5FB88A3A2844C23400D9755C /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB88A392844C23400D9755C /* SplashScreen.storyboard */; };
+		5FB88A402844CB2C00D9755C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A3F2844CB2B00D9755C /* R.generated.swift */; };
+		5FB88A452844CB9E00D9755C /* BaseLabelH1NiveauGrotesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A442844CB9E00D9755C /* BaseLabelH1NiveauGrotesk.swift */; };
+		5FB88A462844CCB500D9755C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB88A3D2844C56500D9755C /* Montserrat-Regular.ttf */; };
+		5FB88A472844CCB500D9755C /* NiveauGrotesk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB88A3C2844C48C00D9755C /* NiveauGrotesk.otf */; };
+		5FB88A492844CE2D00D9755C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A482844CE2D00D9755C /* SplashViewController.swift */; };
+		5FB88A4B2844CECA00D9755C /* BaseLabelH3Monteserrat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A4A2844CECA00D9755C /* BaseLabelH3Monteserrat.swift */; };
+		5FB88A4D2844D14E00D9755C /* BaseButtonPrimaryColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A4C2844D14E00D9755C /* BaseButtonPrimaryColor.swift */; };
+		5FB88A4F2845008100D9755C /* BaseButtonGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A4E2845008100D9755C /* BaseButtonGrey.swift */; };
+		5FB88A51284501CA00D9755C /* BaseButtonWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB88A50284501CA00D9755C /* BaseButtonWhite.swift */; };
+		5FC234632851F7830073C8A3 /* BaseTextViewMonteserrat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC234622851F7830073C8A3 /* BaseTextViewMonteserrat.swift */; };
+		5FC3CE392848740C0060B5A3 /* CardViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC3CE382848740C0060B5A3 /* CardViewHome.swift */; };
+		5FE071B2285B38F300FBB8EE /* ViewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE071AF285B38F200FBB8EE /* ViewNoteViewController.swift */; };
+		5FE071B3285B38F300FBB8EE /* MoreOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE071B0285B38F200FBB8EE /* MoreOptionsViewController.swift */; };
+		5FE071B4285B38F300FBB8EE /* ViewNoteScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE071B1285B38F200FBB8EE /* ViewNoteScreen.storyboard */; };
+		5FE071B6285B398E00FBB8EE /* ButtonMonteserrat12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE071B5285B398E00FBB8EE /* ButtonMonteserrat12.swift */; };
+		5FE071B8285B3A1000FBB8EE /* VerticallyAlignedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE071B7285B3A1000FBB8EE /* VerticallyAlignedButton.swift */; };
+		5FEDDC2528609635006F3061 /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDDC2328609634006F3061 /* EditNoteViewController.swift */; };
+		5FEDDC2628609635006F3061 /* EditNoteScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEDDC2428609634006F3061 /* EditNoteScreen.storyboard */; };
+		5FEDDC2928609CB5006F3061 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDDC2828609CB5006F3061 /* Coordinator.swift */; };
+		5FEDDC2B28609CDC006F3061 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDDC2A28609CDC006F3061 /* AppCoordinator.swift */; };
+		5FEDDC2F28609F0A006F3061 /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDDC2E28609F0A006F3061 /* SplashCoordinator.swift */; };
+		5FEDDC312860A593006F3061 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDDC302860A593006F3061 /* TabCoordinator.swift */; };
+		5FEDDC332860A86E006F3061 /* AllNotesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDDC322860A86E006F3061 /* AllNotesCoordinator.swift */; };
+		5FF8B5242845ED34001C1962 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8B5232845ED34001C1962 /* HomeViewController.swift */; };
+		5FF8B5262846096D001C1962 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8B5252846096D001C1962 /* HomeModel.swift */; };
+		5FF8B528284609D1001C1962 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8B527284609D1001C1962 /* HomeTableViewCell.swift */; };
+		5FFC50182847246200579339 /* BaseLabelH4Monteserrat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC50172847246200579339 /* BaseLabelH4Monteserrat.swift */; };
+		5FFC502B2847A01E00579339 /* BaseLabelH5Monteserrat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC502A2847A01E00579339 /* BaseLabelH5Monteserrat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10F447079B821D09AB6853FA /* Pods-DripNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DripNote.release.xcconfig"; path = "Target Support Files/Pods-DripNote/Pods-DripNote.release.xcconfig"; sourceTree = "<group>"; };
+		150F03EF303CEC53575BA098 /* Pods_DripNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DripNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4742F428534BB300ADB926 /* GenericFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericFunctions.swift; sourceTree = "<group>"; };
+		5F4E3E0F28599E13005333A8 /* IconStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconStackView.swift; sourceTree = "<group>"; };
+		5F4E3E132859A8EB005333A8 /* IconStackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconStackView.xib; sourceTree = "<group>"; };
+		5F4E3E182859CB68005333A8 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5F4E3E1B2859DEFC005333A8 /* UISegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentControl.swift; sourceTree = "<group>"; };
+		5F4E3E1D2859DF20005333A8 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		5F4F44DA2845DFA90011CD1A /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		5F5318CE286189D4007391A2 /* ViewNoteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNoteCoordinator.swift; sourceTree = "<group>"; };
+		5F5318D028619B59007391A2 /* EditNoteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteCoordinator.swift; sourceTree = "<group>"; };
+		5F5318D22861BF45007391A2 /* AddNoteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteCoordinator.swift; sourceTree = "<group>"; };
+		5F5318D42861CEC6007391A2 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		5F96B2D0285AFC8B005A6B8F /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		5F9CE8352849CDB6003FC4DA /* AllNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllNotesViewController.swift; sourceTree = "<group>"; };
+		5F9CE8362849CDB6003FC4DA /* AllNotesScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AllNotesScreen.storyboard; sourceTree = "<group>"; };
+		5F9CE8372849CDB6003FC4DA /* AllNotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllNotesTableViewCell.swift; sourceTree = "<group>"; };
+		5F9CE8392849CDB6003FC4DA /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		5F9CE83A2849CDB6003FC4DA /* AllNotesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllNotesDataModel.swift; sourceTree = "<group>"; };
+		5F9CE8442849CE01003FC4DA /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		5FB88A212844BEEE00D9755C /* DripNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DripNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB88A242844BEEF00D9755C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FB88A262844BEEF00D9755C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +92,37 @@
 		5FB88A2D2844BEF400D9755C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FB88A302844BEF400D9755C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FB88A322844BEF400D9755C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB88A392844C23400D9755C /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		5FB88A3C2844C48C00D9755C /* NiveauGrotesk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NiveauGrotesk.otf; sourceTree = "<group>"; };
+		5FB88A3D2844C56500D9755C /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		5FB88A3F2844CB2B00D9755C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		5FB88A442844CB9E00D9755C /* BaseLabelH1NiveauGrotesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabelH1NiveauGrotesk.swift; sourceTree = "<group>"; };
+		5FB88A482844CE2D00D9755C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		5FB88A4A2844CECA00D9755C /* BaseLabelH3Monteserrat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabelH3Monteserrat.swift; sourceTree = "<group>"; };
+		5FB88A4C2844D14E00D9755C /* BaseButtonPrimaryColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonPrimaryColor.swift; sourceTree = "<group>"; };
+		5FB88A4E2845008100D9755C /* BaseButtonGrey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonGrey.swift; sourceTree = "<group>"; };
+		5FB88A50284501CA00D9755C /* BaseButtonWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonWhite.swift; sourceTree = "<group>"; };
+		5FC234622851F7830073C8A3 /* BaseTextViewMonteserrat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextViewMonteserrat.swift; sourceTree = "<group>"; };
+		5FC3CE382848740C0060B5A3 /* CardViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewHome.swift; sourceTree = "<group>"; };
+		5FE071AF285B38F200FBB8EE /* ViewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewNoteViewController.swift; sourceTree = "<group>"; };
+		5FE071B0285B38F200FBB8EE /* MoreOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreOptionsViewController.swift; sourceTree = "<group>"; };
+		5FE071B1285B38F200FBB8EE /* ViewNoteScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ViewNoteScreen.storyboard; sourceTree = "<group>"; };
+		5FE071B5285B398E00FBB8EE /* ButtonMonteserrat12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonMonteserrat12.swift; sourceTree = "<group>"; };
+		5FE071B7285B3A1000FBB8EE /* VerticallyAlignedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticallyAlignedButton.swift; sourceTree = "<group>"; };
+		5FEDDC2328609634006F3061 /* EditNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
+		5FEDDC2428609634006F3061 /* EditNoteScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EditNoteScreen.storyboard; sourceTree = "<group>"; };
+		5FEDDC2828609CB5006F3061 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5FEDDC2A28609CDC006F3061 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5FEDDC2E28609F0A006F3061 /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
+		5FEDDC302860A593006F3061 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		5FEDDC322860A86E006F3061 /* AllNotesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNotesCoordinator.swift; sourceTree = "<group>"; };
+		5FF8B5232845ED34001C1962 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5FF8B5252846096D001C1962 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		5FF8B527284609D1001C1962 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		5FFC50172847246200579339 /* BaseLabelH4Monteserrat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabelH4Monteserrat.swift; sourceTree = "<group>"; };
+		5FFC50192847277E00579339 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		5FFC502A2847A01E00579339 /* BaseLabelH5Monteserrat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabelH5Monteserrat.swift; sourceTree = "<group>"; };
+		DC9182AFB40419F63DAA8593 /* Pods-DripNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DripNote.debug.xcconfig"; path = "Target Support Files/Pods-DripNote/Pods-DripNote.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +130,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4054B17AADD3D5990E829E49 /* Pods_DripNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11B16A3E5B5EE23214F9A734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				150F03EF303CEC53575BA098 /* Pods_DripNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43C278C9DD6672BB86C3FA49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC9182AFB40419F63DAA8593 /* Pods-DripNote.debug.xcconfig */,
+				10F447079B821D09AB6853FA /* Pods-DripNote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F4E3E172859CB57005333A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F4E3E182859CB68005333A8 /* UIView.swift */,
+				5F4E3E1B2859DEFC005333A8 /* UISegmentControl.swift */,
+				5F4E3E1D2859DF20005333A8 /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F4F44D92845DF8B0011CD1A /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5F96B2D0285AFC8B005A6B8F /* TabViewController.swift */,
+				5F4F44DA2845DFA90011CD1A /* HomeScreen.storyboard */,
+				5FF8B5232845ED34001C1962 /* HomeViewController.swift */,
+				5FF8B5252846096D001C1962 /* HomeModel.swift */,
+				5FF8B527284609D1001C1962 /* HomeTableViewCell.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		5F9CE8322849CDB6003FC4DA /* AllNotesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5F9CE8352849CDB6003FC4DA /* AllNotesViewController.swift */,
+				5F9CE8362849CDB6003FC4DA /* AllNotesScreen.storyboard */,
+				5F9CE8372849CDB6003FC4DA /* AllNotesTableViewCell.swift */,
+				5F9CE8392849CDB6003FC4DA /* AddNoteViewController.swift */,
+				5F9CE83A2849CDB6003FC4DA /* AllNotesDataModel.swift */,
+				5F4E3E132859A8EB005333A8 /* IconStackView.xib */,
+			);
+			path = AllNotesScreen;
+			sourceTree = "<group>";
+		};
+		5F9CE8432849CE01003FC4DA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5F9CE8442849CE01003FC4DA /* DatabaseHelper.swift */,
+				5F4742F428534BB300ADB926 /* GenericFunctions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		5FB88A182844BEEE00D9755C = {
 			isa = PBXGroup;
 			children = (
+				5FEDDC2728609BF9006F3061 /* Coordinators */,
+				5FEDDC2228609634006F3061 /* EditNoteScreen */,
+				5FE071AE285B38F200FBB8EE /* ViewNoteScreen */,
+				5F4E3E172859CB57005333A8 /* Extensions */,
+				5F9CE8432849CE01003FC4DA /* Helper */,
+				5F9CE8322849CDB6003FC4DA /* AllNotesScreen */,
+				5F4F44D92845DF8B0011CD1A /* HomeScreen */,
+				5FB88A412844CB3500D9755C /* CustomControls */,
+				5FB88A3F2844CB2B00D9755C /* R.generated.swift */,
+				5FB88A3B2844C46800D9755C /* Fonts */,
+				5FB88A382844C21000D9755C /* SplashScreen */,
 				5FB88A232844BEEF00D9755C /* DripNote */,
 				5FB88A222844BEEE00D9755C /* Products */,
+				43C278C9DD6672BB86C3FA49 /* Pods */,
+				11B16A3E5B5EE23214F9A734 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +241,79 @@
 			path = DripNote;
 			sourceTree = "<group>";
 		};
+		5FB88A382844C21000D9755C /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5FB88A392844C23400D9755C /* SplashScreen.storyboard */,
+				5FB88A482844CE2D00D9755C /* SplashViewController.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		5FB88A3B2844C46800D9755C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5FFC50192847277E00579339 /* Montserrat-Bold.ttf */,
+				5FB88A3D2844C56500D9755C /* Montserrat-Regular.ttf */,
+				5FB88A3C2844C48C00D9755C /* NiveauGrotesk.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5FB88A412844CB3500D9755C /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				5FE071B7285B3A1000FBB8EE /* VerticallyAlignedButton.swift */,
+				5FE071B5285B398E00FBB8EE /* ButtonMonteserrat12.swift */,
+				5FC234622851F7830073C8A3 /* BaseTextViewMonteserrat.swift */,
+				5FB88A442844CB9E00D9755C /* BaseLabelH1NiveauGrotesk.swift */,
+				5FB88A4A2844CECA00D9755C /* BaseLabelH3Monteserrat.swift */,
+				5FB88A4C2844D14E00D9755C /* BaseButtonPrimaryColor.swift */,
+				5FB88A4E2845008100D9755C /* BaseButtonGrey.swift */,
+				5FB88A50284501CA00D9755C /* BaseButtonWhite.swift */,
+				5FFC50172847246200579339 /* BaseLabelH4Monteserrat.swift */,
+				5FFC502A2847A01E00579339 /* BaseLabelH5Monteserrat.swift */,
+				5FC3CE382848740C0060B5A3 /* CardViewHome.swift */,
+				5F4E3E0F28599E13005333A8 /* IconStackView.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		5FE071AE285B38F200FBB8EE /* ViewNoteScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5FE071AF285B38F200FBB8EE /* ViewNoteViewController.swift */,
+				5FE071B0285B38F200FBB8EE /* MoreOptionsViewController.swift */,
+				5FE071B1285B38F200FBB8EE /* ViewNoteScreen.storyboard */,
+			);
+			path = ViewNoteScreen;
+			sourceTree = "<group>";
+		};
+		5FEDDC2228609634006F3061 /* EditNoteScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5FEDDC2328609634006F3061 /* EditNoteViewController.swift */,
+				5FEDDC2428609634006F3061 /* EditNoteScreen.storyboard */,
+			);
+			path = EditNoteScreen;
+			sourceTree = "<group>";
+		};
+		5FEDDC2728609BF9006F3061 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				5FEDDC2828609CB5006F3061 /* Coordinator.swift */,
+				5FEDDC2A28609CDC006F3061 /* AppCoordinator.swift */,
+				5FEDDC2E28609F0A006F3061 /* SplashCoordinator.swift */,
+				5FEDDC302860A593006F3061 /* TabCoordinator.swift */,
+				5FEDDC322860A86E006F3061 /* AllNotesCoordinator.swift */,
+				5F5318CE286189D4007391A2 /* ViewNoteCoordinator.swift */,
+				5F5318D028619B59007391A2 /* EditNoteCoordinator.swift */,
+				5F5318D22861BF45007391A2 /* AddNoteCoordinator.swift */,
+				5F5318D42861CEC6007391A2 /* HomeCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FB88A352844BEF400D9755C /* Build configuration list for PBXNativeTarget "DripNote" */;
 			buildPhases = (
+				37B8186680C3B59FE1612293 /* [CP] Check Pods Manifest.lock */,
+				5FB88A3E2844C9A100D9755C /* ShellScript */,
 				5FB88A1D2844BEEE00D9755C /* Sources */,
 				5FB88A1E2844BEEE00D9755C /* Frameworks */,
 				5FB88A1F2844BEEE00D9755C /* Resources */,
+				C51FC1C7598161B222EB0831 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +375,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4E3E1A2859CFC1005333A8 /* IconStackView.xib in Resources */,
+				5FB88A462844CCB500D9755C /* Montserrat-Regular.ttf in Resources */,
+				5FB88A472844CCB500D9755C /* NiveauGrotesk.otf in Resources */,
+				5FE071B4285B38F300FBB8EE /* ViewNoteScreen.storyboard in Resources */,
+				5FEDDC2628609635006F3061 /* EditNoteScreen.storyboard in Resources */,
+				5F9CE83E2849CDB6003FC4DA /* AllNotesScreen.storyboard in Resources */,
 				5FB88A312844BEF400D9755C /* LaunchScreen.storyboard in Resources */,
+				5F4F44DB2845DFA90011CD1A /* HomeScreen.storyboard in Resources */,
+				5FB88A3A2844C23400D9755C /* SplashScreen.storyboard in Resources */,
 				5FB88A2E2844BEF400D9755C /* Assets.xcassets in Resources */,
 				5FB88A2C2844BEEF00D9755C /* Main.storyboard in Resources */,
 			);
@@ -133,14 +391,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37B8186680C3B59FE1612293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DripNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB88A3E2844C9A100D9755C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		C51FC1C7598161B222EB0831 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DripNote/Pods-DripNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DripNote/Pods-DripNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DripNote/Pods-DripNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FB88A1D2844BEEE00D9755C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4E3E192859CB68005333A8 /* UIView.swift in Sources */,
+				5F9CE8412849CDB6003FC4DA /* AddNoteViewController.swift in Sources */,
+				5FB88A4D2844D14E00D9755C /* BaseButtonPrimaryColor.swift in Sources */,
+				5FE071B2285B38F300FBB8EE /* ViewNoteViewController.swift in Sources */,
+				5F5318D128619B59007391A2 /* EditNoteCoordinator.swift in Sources */,
+				5F5318D52861CEC6007391A2 /* HomeCoordinator.swift in Sources */,
+				5FEDDC2528609635006F3061 /* EditNoteViewController.swift in Sources */,
+				5F4E3E1C2859DEFC005333A8 /* UISegmentControl.swift in Sources */,
 				5FB88A292844BEEF00D9755C /* ViewController.swift in Sources */,
+				5FF8B528284609D1001C1962 /* HomeTableViewCell.swift in Sources */,
+				5FE071B8285B3A1000FBB8EE /* VerticallyAlignedButton.swift in Sources */,
+				5F4E3E1E2859DF20005333A8 /* UIImage.swift in Sources */,
+				5FEDDC2928609CB5006F3061 /* Coordinator.swift in Sources */,
+				5F9CE8452849CE02003FC4DA /* DatabaseHelper.swift in Sources */,
 				5FB88A252844BEEF00D9755C /* AppDelegate.swift in Sources */,
+				5F4742F528534BB300ADB926 /* GenericFunctions.swift in Sources */,
+				5FB88A452844CB9E00D9755C /* BaseLabelH1NiveauGrotesk.swift in Sources */,
+				5FB88A492844CE2D00D9755C /* SplashViewController.swift in Sources */,
+				5F96B2D1285AFC8B005A6B8F /* TabViewController.swift in Sources */,
 				5FB88A272844BEEF00D9755C /* SceneDelegate.swift in Sources */,
+				5F9CE83D2849CDB6003FC4DA /* AllNotesViewController.swift in Sources */,
+				5F5318CF286189D4007391A2 /* ViewNoteCoordinator.swift in Sources */,
+				5FE071B6285B398E00FBB8EE /* ButtonMonteserrat12.swift in Sources */,
+				5FFC502B2847A01E00579339 /* BaseLabelH5Monteserrat.swift in Sources */,
+				5F9CE8422849CDB6003FC4DA /* AllNotesDataModel.swift in Sources */,
+				5FE071B3285B38F300FBB8EE /* MoreOptionsViewController.swift in Sources */,
+				5FB88A402844CB2C00D9755C /* R.generated.swift in Sources */,
+				5F9CE83F2849CDB6003FC4DA /* AllNotesTableViewCell.swift in Sources */,
+				5FF8B5242845ED34001C1962 /* HomeViewController.swift in Sources */,
+				5F4E3E1028599E13005333A8 /* IconStackView.swift in Sources */,
+				5FEDDC2B28609CDC006F3061 /* AppCoordinator.swift in Sources */,
+				5FEDDC332860A86E006F3061 /* AllNotesCoordinator.swift in Sources */,
+				5FC234632851F7830073C8A3 /* BaseTextViewMonteserrat.swift in Sources */,
+				5FF8B5262846096D001C1962 /* HomeModel.swift in Sources */,
+				5FC3CE392848740C0060B5A3 /* CardViewHome.swift in Sources */,
+				5FB88A4B2844CECA00D9755C /* BaseLabelH3Monteserrat.swift in Sources */,
+				5F5318D32861BF45007391A2 /* AddNoteCoordinator.swift in Sources */,
+				5FEDDC2F28609F0A006F3061 /* SplashCoordinator.swift in Sources */,
+				5FB88A51284501CA00D9755C /* BaseButtonWhite.swift in Sources */,
+				5FFC50182847246200579339 /* BaseLabelH4Monteserrat.swift in Sources */,
+				5FB88A4F2845008100D9755C /* BaseButtonGrey.swift in Sources */,
+				5FEDDC312860A593006F3061 /* TabCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +642,7 @@
 		};
 		5FB88A362844BEF400D9755C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9182AFB40419F63DAA8593 /* Pods-DripNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +652,7 @@
 				INFOPLIST_FILE = DripNote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +670,7 @@
 		};
 		5FB88A372844BEF400D9755C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F447079B821D09AB6853FA /* Pods-DripNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +680,7 @@
 				INFOPLIST_FILE = DripNote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
