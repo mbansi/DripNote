@@ -24,7 +24,7 @@ class ViewNoteViewController: UIViewController {
     //MARK: - Variables
     var delegate: ViewNoteDelegateProtocol? = nil
     var note = AllNotesDataModel()
-    var coordinator: ViewNoteCoordinator?
+    weak var coordinator: ViewNoteCoordinator?
     
     //MARK: - Lifecycle
     override func viewDidLoad() {
